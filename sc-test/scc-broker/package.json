@@ -1,0 +1,31 @@
+{
+  "name": "scc-broker",
+  "version": "2.1.1",
+  "description": "Server for the SC cluster - For horizontal scalability.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SocketCluster/scc-broker.git"
+  },
+  "dependencies": {
+    "express": "4.13.1",
+    "minimist": "1.2.0",
+    "sc-framework-health-check": "^2.0.0",
+    "socketcluster": "^11.4.1",
+    "socketcluster-client": "^11.2.0"
+  },
+  "keywords": [
+    "SocketCluster",
+    "horizontal",
+    "scalability"
+  ],
+  "author": "Jonathan Gros-Dubois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SocketCluster/scc-broker/issues"
+  },
+  "homepage": "https://github.com/SocketCluster/scc-broker"
+}

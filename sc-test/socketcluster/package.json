@@ -1,0 +1,37 @@
+{
+  "name": "BMW",
+  "description": "BigMaxWar",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "name": "Leo",
+      "email": "zym361@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "connect": "3.0.1",
+    "express": "4.14.0",
+    "minimist": "1.1.0",
+    "morgan": "1.7.0",
+    "node-env-file": "^0.1.8",
+    "sc-errors": "^1.4.0",
+    "sc-framework-health-check": "^2.0.0",
+    "sc-hot-reboot": "^1.0.0",
+    "scc-broker-client": "^5.0.1",
+    "serve-static": "1.11.2",
+    "socketcluster": "^11.3.6",
+    "socketcluster-client": "^11.1.0"
+  },
+  "keywords": [
+    "websocket",
+    "server",
+    "realtime",
+    "cluster",
+    "scalable"
+  ],
+  "readmeFilename": "README.md",
+  "scripts": {
+    "start": "node server.js",
+    "start:docker": "node dockerwait.js && node ${SOCKETCLUSTER_MASTER_CONTROLLER:-server.js}"
+  }
+}
